@@ -1,0 +1,141 @@
+div {
+  box-sizing: border-box;
+}
+body{
+  background-color:  lightblue;
+}
+#board{
+  position: relative;
+  border: 3px solid black;
+  box-shadow 5px 5px 5px #333;
+  width: 800px;
+  height: 203px;
+  background-image: url("shrekbackground.jpg");
+}
+
+.help{
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ top: 100px;
+ left: 850px;
+}
+.number{
+  font-size: 24px;
+  position: absolute;
+  left: 3px;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.scoreNumber{
+  font-size: 24px;
+  position: absolute;
+  left: 43%;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.row{
+  position: absolute;
+  width: 800px;
+  height: 100px;
+}
+.circle{
+  position: absolute;
+  border-radius: 25px;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #111;
+}
+.score{
+  border-radius: 25px;
+  border:  1px solid #111;
+  position: absolute;
+  width: 90px;
+  height: 190px
+}
+
+.token{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-image:  url("eyeballtoken.png");
+  background-size:  100% 100%;
+}
+
+.rematch{
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  border: 1px solid #111;
+  border-radius: 15px;
+  text-align: center;
+  top: 350px;
+  left: 200px;
+}
+#row-0{
+  left:0;
+  top:0;
+}
+
+#row-1{
+  left:0;
+  top:100px;
+
+}
+#row-0-score{
+  left: 5px;
+  top: 5px;}
+#row-1-score{
+  left: 700px;
+  top: 5px;}
+#row-0-0{
+  left: 100px;
+  top: 5px;}
+#row-0-1{
+  left: 200px;
+  top: 5px;}
+#row-0-2{
+  left: 300px;
+  top: 5px;}
+#row-0-3{
+  left: 400px;
+  top: 5px;}
+#row-0-4{
+  left: 500px;
+  top: 5px;}
+#row-0-5{
+  left: 600px;
+  top: 5px;}
+
+#row-1-0{
+  left: 100px;
+  top: 105px;
+}
+#row-1-1{
+  left: 200px;
+  top: 105px;
+}
+#row-1-2{
+  left: 300px;
+  top: 105px;
+}
+#row-1-3{
+  left: 400px;
+  top: 105px;
+}
+#row-1-4{
+  left: 500px;
+  top: 105px;
+}
+#row-1-5{
+  left: 600px;
+  top: 105px;
+}
